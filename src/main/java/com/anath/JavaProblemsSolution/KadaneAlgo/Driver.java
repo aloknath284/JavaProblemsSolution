@@ -15,7 +15,7 @@ class Driver {
         while (test_cases-- > 0){
             int array_size = Integer.parseInt(input.readLine().trim());
             int[] array = new int[array_size];
-            String inputLine[] = input.readLine().trim().split(" ");
+            String[] inputLine = input.readLine().trim().split(" ");
             for (int i=0;i<array_size;i++)
                 array[i]=Integer.parseInt(inputLine[i]);
             int max_sum = array[0];
