@@ -1,7 +1,5 @@
 package com.anath.JavaProblemsSolution.SubarrayWithGivenSum;
 
-import org.omg.CORBA.INTERNAL;
-
 import java.util.*;
 import java.lang.*;
 import java.io.*;
